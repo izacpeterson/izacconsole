@@ -1,19 +1,26 @@
+/** @format */
+
 * {
   margin: 0;
   padding: 0%;
   font-size: 30px;
   background-color: black;
   color: lime;
-  font-family: 'Roboto Mono', monospace;
-}
-
-body {
-  display: flex;
-  justify-content: center;
+  font-family: "Roboto Mono", monospace;
 }
 input {
   border: none;
 }
 input:focus {
   outline: none;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+form {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
 }
