@@ -28,5 +28,9 @@ switch (args[0]) {
     break;
   case "help":
     $("body").append(`<h1>Available Commands:</h1>
-                        <h2>goto</h2>`);
+                        <h2>goto</h2>
+                        <h2>alert</h2>`);
+    break;
+  case "alert":
+    alert(args[1]);
 }
